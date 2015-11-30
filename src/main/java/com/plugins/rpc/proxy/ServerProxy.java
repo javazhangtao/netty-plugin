@@ -57,7 +57,7 @@ public class ServerProxy {
             if(parameters.containsKey(paramNames[i]))
                 _params[i]=parameters.get(paramNames[i]);
             else
-                _params[i]=null;
+            _params[i]=null;
         }
         return _params;
     }
